@@ -18,117 +18,152 @@
 <!--Header-->
     <header>
 <!--la profe puso en el header la parte de la imagen, pero yo lo hice diferente-->
-        <div class="headerLogo">
+        <div class="header__contenedorLogo">
             <div><a href="./index.html"></a> <img src="./assets/img/codoacodo.png" alt="Logo Codo a Codo" width="100 px">
             </div>
             <div>
-                <h2>Conf. Bs.As.</h2>
+                <h2>Conf Bs As</h2>
             </div>
         </div>
         
-        <div class="headerEnlaces">
+        <div class="header__contenedorEnlaces">
             <nav>
             <!--lista de enlaces-->           
-                <ul class="listaHorizontal">
+                <ul class="header__contenedorEnlaces__listaHorizontal">
                     <li><a href="#conferencia">La conferencia</a></li>
                     <li><a href="#oradores">Los oradores</a></li>
-                    <li><a href="#lugar_y_fecha">EL lugar y la fecha</a></li>
-                    <li><a href="#formulario">Convertite en oradores</a></li>
+                    <li><a href="#lugarYFecha">El lugar y la fecha</a></li>
+                    <li><a href="#formulario">Convertite en orador</a></li>
                     <li><a href="./pages/tickets.html">Comprar tickets</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--main-->    
     <main>
 
-
-
-        <section class="conferencia">
+        <section id="conferencia" class="main__conferencia">
 <!--Primera sección - foto en background-->    
-        <div class="textoConferencia">
-              <h1>Conf Bs As</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis odit, quidem excepturi deleniti fugiat minus explicabo repellendus libero porro consequatur. Laborum saepe eos adipisci velit explicabo ducimus impedit pariatur itaque dolores eveniet labore quibusdam ad esse maxime, ea culpa vero quis expedita sint unde deserunt eum autem dolorum obcaecati! Quos.</p>
-            <div class="botonesConferencia">
-                <a href="">Quiero sero orador</a>
+            <div class="main__conferencia__textos">
+                <div class="main__conferencia__textos__five-columns">
+                <h2>Conf Bs As</h2>
+                <p>Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el conocimiento y experiencia de los expertos que están creando el futuro de Interet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+                </div>
+            </div>
+            <div class="main__conferencia__botones">
+                <a href="">Quiero ser orador</a>
                 <a href="">Comprar tickets</a>
             </div>
-        </div>
-        
+
+        </section>       
         <!--Una sección que tiene que tener un título, y va a tener en este caso una imagen de fondo-->
-        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--Segunda sección - cards de oradores-->
-        <section class="oradores">
-            <div class="oradoresTitulo"> <!--div de oradores, las dos líneas de títulos -->
+        <section id="oradores" class="main__oradores">
+            <div class="main__oradoresTitulo"> <!--div de oradores, las dos líneas de títulos -->
                 <h3>CONOCE A LOS</h3>
                 <h2>ORADORES</h2>
             </div>
-            <!--El título se pone en dos divs porque está separado en dos líneas y es diferente la tipografía-->
-            <div class="oradoresPadre"><!--div de las tres cards --> 
+
+            <div class="main__oradores__cards"><!--div de las tres cards --> 
                 
-                <div class="oradoresHijo primerHijo"><!--toda la card primera-->
-                    <div class="oradoresFoto"> <!--div para la card -->
-                        <img src="./assets/img/steve.jpg" alt="Steve Jobs">
+                <div class="main__oradores__cards__card primerHijo"><!--toda la card primera-->
+                    <div class="main__oradores__cards__card__divFoto"> <!--div para la foto de la card -->
+                        <img src="./assets/img/steve.png" alt="Steve Jobs">
                     </div>    
-                    <div class="oradoresTextos"><!--div para botones, título y bajada -->
-                        <div class="oradoresTextosBotones"> <!-- div para los dos botones, este es el que me queda grande-->   
-                            <div class="oradoresBotonUno boton">
+                    <div class="main__oradores__cards__card__divTextos"><!--div para botones, título y bajada -->
+                        <div class="main__oradores__cards__card__divTextos__botones"> <!-- div para los dos botones, este es el que me queda grande-->   
+                            <div class="main__oradores__cards__card__divTextos__botones botonUno primeraCard ">
                                 <h4>Javascipt</h4>
                             </div>
-                            <div class="oradoresBotonDos boton">
+                            <div class="main__oradores__cards__card__divTextos__botones botonDos primeraCard ">
                                 <h4>React</h4>
                             </div>
                         </div>
-                        <div class="oradoresTextosTitulo">
+                        <div class="main__oradores__cards__card__divTextos__Titulo">
                             <h3>Steve Jobs</h3>
                         </div>
-                        <div class="oradoresTextosTexto">
+                        <div class="main__oradores__cards__card__divTextos__Titulo__Textos">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab, assumenda accusamus perferendis, voluptates aperiam et esse ipsa enim at nihil qui nobis consectetur aut, dolore odio hic non! Fugit.</p>
                         </div>
                     </div>    
                 </div>
-                <div class="oradoresHijo segundoHijo">
-                        <div class="oradoresFoto">
-                            <img src="./assets/img/bill.jpg" alt="Bill Gates">
+                <div class="main__oradores__cards__card segundoHijo">
+                        <div class="main__oradores__cards__card__divFoto">
+                            <img src="./assets/img/bill.png" alt="Bill Gates">
                         </div>
-                        <div class="oradoresTextos">
-                            <div class="oradoresTextosBotones"> 
-                                <div class="oradoresBotonUno boton">
+                        <div class="main__oradores__cards__card__divTextos">
+                            <div class="main__oradores__cards__card__divTextos__botones"> 
+                                <div class="main__oradores__cards__card__divTextos__botones botonUno segundaCard">
                                     <h4>Javascipt</h4>
                                 </div>
-                                <div class="oradoresBotonDos boton">
+                                <div class="main__oradores__cards__card__divTextos__botones botonDos  segundaCard">
                                     <h4>React</h4>
                                 </div>
                             </div>
-                            <div class="oradoresTextosTitulo">
+                            <div class="main__oradores__cards__card__divTextos__Titulo">
                                 <h3>Bill Gates</h3>
                             </div>
-                            <div class="oradoresTextosTextos">
+                            <div class="main__oradores__cards__card__divTextos__Titulo__Textos">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab, assumenda accusamus perferendis, voluptates aperiam et esse ipsa enim at nihil qui nobis consectetur aut, dolore odio hic non! Fugit.</p>
                             </div>
 
                 </div>
             </div>
-                <div class="oradoresHijo tercerHijo">
-                        <div class="oradoresFoto">
-                            <img src="./assets/img/ada.jpeg" alt="Ada Lovelace">
+                <div class="main__oradores__cards__card tercerHijo">
+                        <div class="main__oradores__cards__card__divFoto">
+                            <img src="./assets/img/ada.png" alt="Ada Lovelace">
                         </div>
-                        <div class="oradoresTextos">
-                            <div class="oradoresTextosBotones"> 
-                                <div class="oradoresBotonUno boton">
+                        <div class="main__oradores__cards__card__divTextos">
+                            <div class="main__oradores__cards__card__divTextos__botones"> 
+                                <div class="main__oradores__cards__card__divTextos__botones botonUno terceraCard ">
                                     <h4>Negocios</h4>
                                 </div>
-                                <div class="oradoresBotonDos boton">
+                                <div class="main__oradores__cards__card__divTextos__botones botonDos terceraCard ">
                                 <h4>Startups</h4>
                                 </div>
                             </div>
-                        <div class="oradoresTextosTitulo">
+                        <div class="main__oradores__cards__card__divTextos__Titulo">
                             <h3>Ada Lovelance</h3>
 
-                        <div class="oradoresTextosTextos">
+                        <div class="main__oradores__cards__card__divTextos__Titulo__Textos">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam ab, assumenda accusamus perferendis, voluptates aperiam et esse ipsa enim at nihil qui nobis consectetur aut, dolore odio hic non! Fugit.</p>
                         </div>
                     </div>
@@ -138,16 +173,41 @@
         </section>
 
 
-        <!--Tercera sección - playa-->
-        <section id = "lugar_y_fecha">
 
-            <div>
-                <img src="./assets/img/honolulu.jpg" width=300 loading="lazy" px alt="nuestras playas">  <!--Loading lazy hace que las imagenes se carguen a cuando llego a esa parte de la página y no antes, sirve cuando tengo muchas imagenes para que no demore en cargar-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Tercera sección - playa-->
+        <section id="lugarYFecha" class = "main__LugarYFecha">
+
+            <div class="main__LugarYFecha__hijo main__LugarYFecha__foto">
+
             </div>
-            <div>
+            <div class="main__LugarYFecha__hijo main__LugarYFecha__datos">
                 <h2>Bs As - Octubre</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed rerum temporibus minus corrupti quaerat voluptatum qui corporis sunt magnam delectus nam, dicta dolorum tenetur, nobis placeat reiciendis cum ab totam excepturi earum voluptatibus cupiditate accusamus? Aut itaque earum iusto.</p>
-                <a href=""
+
                 <a href="">Conocé más</a>
 
             </div>
@@ -155,33 +215,51 @@
 
 
 
-        <section id ="formulario">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="formulario" class ="main__formulario">
 <!--Cuarta sección - ORADOR-->
-            <div>
+            <div class="main__formulario__titulos">
                     
-                <div>CONVERTITE EN UN</div>
-                <div>ORADOR</div>
-                <div><p>Anotate como orador para dar una <a href="URL_del_destino">charla ignite</a>. Cuéntanos de qué quieres      hablar!</p></div>
+                <h3>CONVERTITE EN UN</h3>
+                <h2>ORADOR</h2>
+                <p>Anotate como orador para dar una <a href="URL_del_destino">charla ignite</a>. Cuéntanos de qué quieres hablar!</p>
             </div>
-            <div>
+            <div class="main__formulario__camposFormulario">
                 <form action="">
-                    <div>
-                        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
-                        <input type="text" id="apellido" name="apellido" placeholder="Apellido"><br>
+                    <div class="main__formulario__camposFormulario__NombreYApellido">
+                        <input class="main__formulario__camposFormulario__NombreYApellido__Nombre" type="text"  class=""  id="nombre" name="nombre" placeholder="Nombre" >
+                        <input class="main__formulario__camposFormulario__NombreYApellido__Apellido" type="text"  id="apellido" name="apellido" placeholder="Apellido"><br>
                     </div>
-                    <div>    
-                        <textarea id="comentario" name="comentario" placeholder="Sobre qué quieres hablar?"></textarea><br>
+                    <div class="main__formulario__camposFormulario__Textarea">    
+                        <textarea id="comentario" name="comentario" placeholder="Sobre qué quieres hablar?"></textarea>
+
+                        <p>Recuerda incluir un título para tu charla</p>
                     </div>
-                    <div>
-                        <input type="email" id="email" name="mail" placeholder="Mail">
-                        <input type="password" id="">
-                    </div>
-                    <p class="ayuda">Recuerda incluir un título para tu charla</p>
                     <!-- <button class="button-formulario">Enviar</button> -->
-                    <div>
-                        <input type="submit" value="Enviar formulario">
-                        <input type="reset" value="Limpiar formulario"><br>
-                    </div>
+                    <di class="main__formulario__camposFormulario__boton">
+                        <input type="submit" value="Enviar">
+
+                    </divmain__formulario__camposFormulario__NombreYApellido>
                 </form>
             </div>
             <form action="">
@@ -191,18 +269,14 @@
 
     </main>
 
-<!-- aside con publicidad -->
-    <aside>
-        <iframe width="1200" height="200" src="https://www.youtube.com/embed/em-BP7WEOZg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-    </aside>
 
 
 
 <!--footer-->
-    <footer class="footer colorFondoGradiente">
+    <footer class="footer">
         <div>
-            <ul class="listaHorizontalFooter">
+            <ul class="footer__listaHorizontal">
                 <li><a href="">Preguntas frecuentes</a></li>
                 <li><a href="">Contáctanos</a></li>
                 <li><a href="">Prensa</a></li>
