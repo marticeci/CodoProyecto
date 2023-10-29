@@ -56,3 +56,17 @@ while (contador<3){
 
 */
 
+
+        var inputElement = document.getElementById("form_name");
+        var boton = document.getElementById("boton_resumen");
+
+      
+        var valorName;
+        var resultadoElement = document.getElementById("resultado");
+   
+        boton.addEventListener("click", function() {
+          valorName = inputElement.value; // Guarda el valor del input en la variable
+          resultadoElement.textContent="El valor del input es: " + valorName;
+        });
+      
+   

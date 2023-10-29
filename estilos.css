@@ -1,10 +1,9 @@
 
 
-
 /*body*/ 
 body {
     font-family: Monserrat, sans-serif;
-    background-color: #f4f4f4;
+    background-color: white;
     font-size: 1rem;
     margin: 0;
     padding: 0
@@ -296,12 +295,12 @@ text-align: center;}
 
 
 /***************************oradores títulos****************/
-.main__oradoresTitulo, .main__formulario__titulos {
+.main__oradoresTitulo, .main__formulario__titulos, .tickets_textos{
   text-align: center;
   font-family: 'Lato', sans-serif, bold;
 }
 
-.main__oradoresTitulo h3, .main__formulario__titulos h3{
+.main__oradoresTitulo h3, .main__formulario__titulos h3, .tickets_textos h3{
   font-size: 0.75rem;
   }
 
@@ -311,12 +310,12 @@ text-align: center;}
     }
 
   @media (max-width: 767px) {
-    .main__oradoresTitulo h3, .main__formulario__titulos h3{
+    .main__oradoresTitulo h3, .main__formulario__titulos h3, .tickets_textos h3{
       font-size: 0.8rem;
       line-height: 0.9rem;
       }
     
-      .main__oradoresTitulo h2, .main__formulario__titulos h2{
+      .main__oradoresTitulo h2, .main__formulario__titulos h2, .tickets_textos h2{
         font-size: 1rem;
         }
   }
@@ -855,4 +854,74 @@ h1{
 
 h4{
   margin: 0%
+}
+
+
+/*pagina tickets*/ 
+
+#main_tickets{
+padding: 1rem 8rem 0rem 8rem;
+}
+
+.tickets_card{
+  border: #44b7cf 2px solid;
+  border-radius: 0;
+ 
+}
+
+.custom-padding {
+  padding: 6px; 
+}
+ 
+
+.card_2{
+border: aqua 2px solid;
+}
+
+
+.card_3{
+  border: yellow 2px solid;
+
+ }
+
+.card-text{
+  font-size:0.8rem;
+  font-weight: 300;
+}
+
+.card-numbers{
+  font-size:1.1rem;
+  font-weight: 600; 
+}
+
+.card-subtitle{
+  font-weight: 400; 
+}
+
+.card-title, .card-subtitle, .card-text{
+  line-height: 1.8;
+}
+
+.tickets_textos{
+  padding: 1rem 0 1rem 0;
+}
+
+.tickets_textos h2{
+  font-size:2rem;
+  font-weight:500;
+}
+
+
+  
+
+
+.formulario_total{
+  height:3rem;
+  width:100%;
+  background-color:var(--bs-info);
+}
+
+
+.formulario_boton {
+  background-color: rgb(36, 182, 36);
 }
