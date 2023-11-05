@@ -12,7 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@300;400;500;700;800&family=Noto+Sans:ital,wght@0,500;0,900;1,800;1,900&family=Palanquin+Dark:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;1,100&family=Rubik:wght@400;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-< class="tickets">
+<class="tickets">
                     <!--------------------------Header------------------------->  
     <header>
         <div id="header_tickets" class="header__contenedorLogo">
@@ -31,11 +31,6 @@
             </nav>
         </div>
     </header>
-
-
-
-
-
 
 
 
@@ -107,46 +102,46 @@
 
         <form>
             <div class="form_2 d-flex flex-row justify-content-between flex-wrap row g-3">
-
                 <div class="form_2_2 mb-3 col-lg-6 col-sm-12 mr-1">
-                    <input type="text" class="form-control" id="form_name" placeholder="Nombre">
+                    <input type="text" class="form-control" id="form_name" placeholder="Nombre" required>
                 </div>
-                <div class="form_2_2 mb-3 col-lg-6 col-sm-12 ml-1">
-                    <input type="text" class="form-control" id="form_last_name" placeholder="Apellido">
-                </div>
+            
+            <div class="form_2_2 mb-3 col-lg-6 col-sm-12 ml-1">
+                    <input type="text" class="form-control" id="form_last_name" placeholder="Apellido" required>
             </div>
-
+            </div>
 
             <div class="mb-3 col-12 mr-1">
-                <input type="email" class="form-control" id="form_email" placeholder="Correo">
+                <input type="email" class="form-control" id="form_email" placeholder="Correo" required>
             </div>
-
 
             <div class="form_2 d-flex flex-row justify-content-between flex-wrap row g-3">
                 <div class="form_2_2 mb-3 col-lg-6 col-sm-12 mr-1">
-                    <label for="form_quantity" class="form-label">Cantidad</label>
-                    <input type="text" class="form-control" id="form_quantity" placeholder="Cantidad">
+                    <label for="form_quantity" class="form-label" >Cantidad</label>
+                    <input type="text" class="form-control" id="form_quantity" placeholder="Cantidad"  required>
                 </div>
                 <div class="form_2_2 mb-3 col-lg-6 col-sm-12 ml-1">
                     <label for="form_select" class="form-label">Categoría</label>
                     <select class="form-select"  id="form_selection" aria-label="Default select example">
-                    <option selected value="1">Estudiante</option>
-                    <option value="2">Trainee</option>
-                    <option value="3">Junior</option>
+                    <option selected value value="1">General</option>
+                    <option value="2">Estudiante</option>                    
+                    <option value="3">Trainee</option>
+                    <option value="4">Junior</option>
+
                     </select>
                 </div>
             </div>
 
         <!------------------formulario - totales----------------------- --> 
 
-            <div class="formulario_total">
-                <p id="mensajeJS">Total a pagar $</p>
+            <div class="formulario_total col d-flex align-items-center justify-content-start p-3">
+                <p class="align-items-center formulario_total_parrafo" id="mensajeJS">Total a pagar $</p>
 
             </div>
                 <div class="formulario_botones d-flex flex-row justify-content-center flex-wrap mt-2 ">
 
-    <button id="boton_borrar" type="button" class="formulario_boton btn btn-primary btn-lg col-lg-5 col-sm-12 m-2">Borrar</button>
-    <button id="boton_resumen" type="button" class="formulario_boton btn btn-primary btn-lg col-lg-5 col-sm-12 m-2">Resumen</button>
+    <button id="boton_borrar" type="button"  class="formulario_boton btn btn-primary btn-lg col-lg-5 col-sm-12 m-2">Borrar</button>
+    <button id="boton_resumen" type="submit" class="formulario_boton btn btn-primary btn-lg col-lg-5 col-sm-12 m-2">Resumen</button>
             </div>
 
 <p id="resultado"></p>
@@ -162,11 +157,24 @@
 
 
 
+
         </div>
 
     </main>
+    <footer class="footer">
+        <div>
+            <ul class="footer__listaHorizontal">
+                <li><a href="">Preguntas frecuentes</a></li>
+                <li><a href="">Contáctanos</a></li>
+                <li><a href="">Prensa</a></li>
+                <li><a href="#conferencia">Conferencias</a></li>
+                <li><a href="">Términos y condiciones</a></li>
+                <li><a href="">Privacidad</a></li>
+                <li><a href="">Estudiantes</a></li>
+            </ul>
+        </div>
 
-    <footer></footer>
+    </footer>
         <!-- vinculo página del html con la página de js--> 
 
 

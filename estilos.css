@@ -300,11 +300,11 @@ text-align: center;}
   font-family: 'Lato', sans-serif, bold;
 }
 
-.main__oradoresTitulo h3, .main__formulario__titulos h3, .tickets_textos h3{
+.main__oradoresTitulo h3, .main__formulario__titulos h3 , .tickets_textos h3{
   font-size: 0.75rem;
   }
 
-  .main__oradoresTitulo h2, .main__formulario__titulos h2{
+  .main__oradoresTitulo h2, .main__formulario__titulos h2, .tickets_textos h2{
     font-size: 1.5rem;
     line-height: 1rem;
     }
@@ -845,16 +845,6 @@ margin: 2px 0 8px 0;
 
 
 
-/*tipografía*/ 
-
-
-h1{
-  margin:0%
-}
-
-h4{
-  margin: 0%
-}
 
 
 /*pagina tickets*/ 
@@ -878,9 +868,20 @@ padding: 1rem 8rem 0rem 8rem;
 border: aqua 2px solid;
 }
 
-
 .card_3{
   border: yellow 2px solid;
+
+ }
+ .card_1:hover{
+  background-color:#5cdef8;
+ }
+
+ .card_2:hover{
+  background-color: rgb(159, 243, 243);
+ }
+
+ .card_3:hover{
+  background-color: rgb(244, 244, 156);
 
  }
 
@@ -906,13 +907,7 @@ border: aqua 2px solid;
   padding: 1rem 0 1rem 0;
 }
 
-.tickets_textos h2{
-  font-size:2rem;
-  font-weight:500;
-}
 
-
-  
 
 
 .formulario_total{
@@ -920,8 +915,21 @@ border: aqua 2px solid;
   width:100%;
   background-color:var(--bs-info);
 }
-
+.formulario_total_parrafo{
+  margin-bottom:0px;
+}
 
 .formulario_boton {
   background-color: rgb(36, 182, 36);
+}
+
+/*tipografía*/ 
+
+
+h1{
+  margin:0%
+}
+
+h4{
+  margin: 0%
 }
